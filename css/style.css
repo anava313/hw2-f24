@@ -1,10 +1,13 @@
 body{
-    font-family: arial, verdana;
+    font-family: Arial, Verdana;
     color: #ffffff;
     background-color: #000000;
-    margin: 20px 20px 0 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 /*Color codes/hexadecimals taken from: http://web.simmons.edu/~grovesd/comm244/notes/week3/css-colors */
+
 
 h1{
     font-size: 42px;
@@ -19,42 +22,44 @@ h2{
 
 p{
     font-size: 24px;
-    padding: 10px 0 0 10px;
+    padding-top: 10px;
+    padding-left: 10px;
 }
 
 img{
-    display: block;
-    margin: 0 auto;
     width: 250px;
     border: 10px dashed #ffffff;
+    display: block;
+    margin: 0 auto;
 }
 
 div{
     min-height: 125px;
-    padding: 20px 20px 20px 20px;
+    padding: 20px;
     border: 3px solid #ffffff;
 }
 
 .introduction{
     border-radius: 15px;
-    margin: 15px 0px 0px 0px;
+    margin-top: 15px;
     line-height: 2;
 }
 
 .red{
     background-color: #ff0000;
-    margin: 0px 0px 0px 50px;
-    border-width: 0px 0px 2px 5px;
+    margin-left: 50px;
+    border-bottom: 2px solid;
+    border-left: 5px solid;
     text-align: right;
-    display: block;
 }
 
 div.blue{
     background-color: #0000ff;
     text-align: left;
     color: #C4C4C4;
-    margin: 0px 50px 0px 0px;
-    border-width: 2px 5px 0px 0px;
+    margin-right: 50px;
+    border-right: 5px solid;
+    border-top: 2px solid;
 }
 div.blue h2{
     color: #C4C4C4;
@@ -63,16 +68,18 @@ div.blue h2{
 div.yellow{
     background-color: #ffff00;
     color: #707070;
-    margin: 0px 0px 0px 50px;
-    border-width: 0px 0px 2px 5px;
+    margin-left: 50px;
+    border-bottom: 2px solid;
+    border-left: 5px solid;
     text-align: right;
 }
 
 div.green{
     background-color: #008500;
     color: #000000;
-    margin: 0px 50px 0px 0px;
-    border-width: 2px 5px 0px 0px;
+    margin-right: 50px;
+    border-right: 5px solid;
+    border-top: 2px solid;
     text-align: left;
 }
 div.green p{
